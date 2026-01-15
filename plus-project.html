@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Weather App</title>
+  </head>
+  <body>
+    <header>
+      <form action="/submit">
+        <input
+          type="search"
+          placeholder="Enter a city..."
+          name="city"
+          id="city"
+          required
+        />
+        <input type="submit" value="Search" />
+      </form>
+    </header>
+    <main>
+      <div class="today-weather">
+        <h1>Perth</h1>
+        <p>
+          Wednesday 11:50, clear and sunny
+          <br />
+          Humidity: <strong>35%</strong>, Wind: <strong>15km/h</strong>
+        </p>
+      </div>
+      <div class="temp">☀29℃</div>
+      <div class="forecast-weather">
+        <ul>
+          <li>
+            Thurs ⛅
+            <br />
+            <strong>27℃</strong> 17℃
+          </li>
+          <li>
+            Fri ⛅
+            <br />
+            <strong>29℃</strong> 16℃
+          </li>
+          <li>
+            Sat ☀
+            <br />
+            <strong>31℃</strong> 18℃
+          </li>
+          <li>
+            Sun ☀
+            <br />
+            <strong>34℃</strong> 22℃
+          </li>
+          <li>
+            Mon 🌤
+            <br />
+            <strong>36℃</strong> 22℃
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <p>
+        This project was coded by
+        <a
+          href="https://www.linkedin.com/in/alicia-buelow-045a873a2/"
+          target="_blank"
+          >Alicia Buelow</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
